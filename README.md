@@ -54,10 +54,10 @@
 ------------
 
 
-	*variables*
+		#variables
 	 N=int(input("ingrese un numero:"))
 	 Y= round(sqrt(N))
-	 *solucion*
+	 #solucion
 	if Y*Y == N:
    	print("es una raiz exacta")
 	else:
