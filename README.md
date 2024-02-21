@@ -58,7 +58,7 @@
 	N=int(input("ingrese un numero:"))
 	Y= round(sqrt(N))
 	 	#solucion
-	if Y*Y == N:
+	if Y**2 == N:
 		print("es una raiz exacta")
 	else:
 		print("no es una raiz exacta")
