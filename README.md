@@ -31,14 +31,14 @@
 
 - Pseudo Codigo
 
- 		[variables]
-  	X = numero a calcular raiz cuadrada exacta
-  	Y= sqrt X redondeado al entero mas cercano
-  	entonces sqrt X y el valor entra en Y Lo redondea
-   	Si Y* Y = x
-  	"es un numero entero"
-   	sino 
-  	"no es un numero entero" 
+ 			[variables]
+		X = numero a calcular raiz cuadrada exacta
+  		Y= sqrt X redondeado al entero mas cercano
+  		entonces sqrt X y el valor entra en Y Lo redondea
+   		Si Y* Y = x
+  		"es un numero entero"
+   		sino 
+		"no es un numero entero" 
 
 ------------
 
