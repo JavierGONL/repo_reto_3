@@ -55,11 +55,18 @@ sino
 ------------
 
 
->N=int(input("ingrese un numero:"))
- Y= round(sqrt(N))
- if Y*Y == N:
-    print("es una raiz exacta")
- else:
-    print("no es una raiz exacta")
->
+- codigo python del diagrama
+
+------------
+
+
+	*variables*
+	 N=int(input("ingrese un numero:"))
+	 Y= round(sqrt(N))
+	 *solucion*
+	if Y*Y == N:
+   	print("es una raiz exacta")
+	else:
+		print("no es una raiz exacta")
+
 
