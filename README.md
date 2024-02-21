@@ -7,20 +7,17 @@
 
 ------------
 
- >[VARIABLES]
- N=Numero entero a saber si es primo o no
- D=0 <--- Divisores encontrados
- 2 <  C  < N/2 <---- Numeros q dividiran N
-  
- >Mientras  C <= N y D <= 2 Hacer N/C
-  
-  >Si N/C == 0 entonces 
-    D=D+1 
-
- > si D == 3 entonces
-  "No es primo "
-sino 
-"Es primo "
+ 		[VARIABLES]
+ 	N=Numero entero a saber si es primo o no
+ 	D=0 <--- Divisores encontrados
+ 	2 <  C  < N/2 <---- Numeros q dividiran N
+ 	Mientras  C <= N y D <= 2 Hacer N/C
+  	Si N/C == 0 entonces 
+    	D=D+1 
+	si D == 3 entonces
+  	  "No es primo "
+	sino 
+	  "Es primo "
 
 - Diagrama (solucion muy poco pro)
 
@@ -34,15 +31,14 @@ sino
 
 - Pseudo Codigo
 
-> [variables]
- X = numero a calcular raiz cuadrada exacta
-Y= sqrt X redondeado al entero mas cercano
-
->entonces sqrt X y el valor entra en Y Lo redondea
-Si Y* Y = x
-"es un numero entero"
-sino 
-"no es un numero entero" 
+ 		[variables]
+  	X = numero a calcular raiz cuadrada exacta
+  	Y= sqrt X redondeado al entero mas cercano
+  	entonces sqrt X y el valor entra en Y Lo redondea
+   	Si Y* Y = x
+  	"es un numero entero"
+   	sino 
+  	"no es un numero entero" 
 
 ------------
 
