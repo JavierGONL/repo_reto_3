@@ -15,7 +15,7 @@
  >Mientras c<=N y D<=2 Hacer
   N / C
   
-  >Si N/C == 0:
+  >Si N/C == 0 entonces 
     D=D+1 
 
  > si D == 3 entonces
