@@ -10,17 +10,14 @@
 > N=Numero entero a saber si es primo o no
   D=0 <--- Divisores encontrados
   2 <  C  < N/2 <---- Numeros q dividiran N
-  
- >Mientras c<=N y D<=2 Hacer
-  N / C
-  
-  >Si N/C == 0:
+Mientras c<=N y D<=2 Hacer
+  N / C 
+Si N/C == 0:
     D=D+1 
-
- > si D == 3 entonces
+si D == 3 entonces
   "No es primo "
 sino 
-"Es primo "
+  "Es primo "
 
 - Diagrama (solucion muy poco pro)
 
