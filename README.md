@@ -11,7 +11,7 @@
    
  	N = Numero entero a saber si es primo o no
   
- 	D=0 <--- Divisores encontrados
+ 	D=2 <--- Divisores encontrados osea 1 y el numero N
   
  	2 <=  C  <= N/2 <---- conjunto de Numeros que dividiran N
   
@@ -22,6 +22,23 @@
   	  		"No es primo "
 		sino 
 	 		 "Es primo "
+
+- codigo python
+
+  ```python
+	N=int(input("Ingrese un numero entero para saber si es primo o no "))
+	c=1
+	D=2
+	while c<=N and D<=2:
+  		O = N % c
+  	if O == 0:
+    		D=D+1
+  		c=c+1
+	if D ==3 :
+   		print( "No es primo ")
+	else: 
+  		print ( "Es primo ")
+  ``` 
 
 - Diagrama (solucion muy poco pro)
 
