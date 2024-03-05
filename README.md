@@ -8,16 +8,19 @@
 ------------
 
  		[VARIABLES]
- 	N=Numero entero a saber si es primo o no
+ 	N = Numero entero a saber si es primo o no
+  
  	D=0 <--- Divisores encontrados
- 	2 <  C  < N/2 <---- Numeros q dividiran N
+  
+ 	2 <=  C  <= N/2 <---- conjunto de Numeros que dividiran N
+  
  	Mientras  C <= N y D <= 2 Hacer N/C
-  	Si N/C == 0 entonces 
-    	D=D+1 
-	si D == 3 entonces
-  	  "No es primo "
-	sino 
-	  "Es primo "
+  		Si N/C == 0 entonces 
+    			D=D+1 <---- por cada divisor exacto encontrado n aumenta en 1     
+		si D == 3 entonces
+  	  		"No es primo "
+		sino 
+	 		 "Es primo "
 
 - Diagrama (solucion muy poco pro)
 
