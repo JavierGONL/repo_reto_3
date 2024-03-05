@@ -17,7 +17,7 @@
   
  	Mientras  C <= N/2 y D <= 2 Hacer N/C
   		Si N/C == 0 entonces 
-    			D=D+1 <---- por cada divisor exacto encontrado n aumenta en 1     
+    			D=D+1 <---- por cada divisor exacto encontrado 	D aumenta en 1     
 		si D == 3 entonces
   	  		"No es primo "
 		sino 
@@ -26,18 +26,18 @@
 - codigo python
 
   ```python
-	N=int(input("Ingrese un numero entero para saber si es primo o no "))
-	c=1
-	D=2
-	while c<=N and D<=2:
-  		O = N % c
-  	if O == 0:
-    		D=D+1
-  		c=c+1
+	N=int(input("Ingrese un numero entero para saber si es primo o no:"))
+	C=2
+	D=0
+	while C<=N and D<=2:
+ 		 O= N % C
+	  if O == 0:
+  		  D=D+1
+		  C=C+1
 	if D ==3 :
-   		print( "No es primo ")
+		  print( "No es primo ")
 	else: 
-  		print ( "Es primo ")
+		  print ( "Es primo ")
   ``` 
 
 - Diagrama (solucion muy poco pro)
