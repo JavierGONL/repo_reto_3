@@ -8,13 +8,14 @@
 ------------
 
  		[VARIABLES]
+   
  	N = Numero entero a saber si es primo o no
   
  	D=0 <--- Divisores encontrados
   
  	2 <=  C  <= N/2 <---- conjunto de Numeros que dividiran N
   
- 	Mientras  C <= N y D <= 2 Hacer N/C
+ 	Mientras  C <= N/2 y D <= 2 Hacer N/C
   		Si N/C == 0 entonces 
     			D=D+1 <---- por cada divisor exacto encontrado n aumenta en 1     
 		si D == 3 entonces
@@ -34,14 +35,18 @@
 
 - Pseudo Codigo
 
- 			[variables]
+ 			[VARIABLES]
+  
 		X = numero a calcular raiz cuadrada exacta
+  
   		Y= sqrt X redondeado al entero mas cercano
+  
   		entonces sqrt X y el valor entra en Y Lo redondea
-   		Si Y* Y = x
-  		"es un numero entero"
-   		sino 
-		"no es un numero entero" 
+  
+   			Si Y* Y = x
+  				"es un numero entero"
+   			sino 
+				"no es un numero entero" 
 
 ------------
 
@@ -58,9 +63,13 @@
 
 
 			#variables
+   
 	N=int(input("ingrese un numero:"))
+ 
 	Y= round(sqrt(N))
-	 	#solucion
+ 
+	 #solucion
+  
 	if Y**2 == N:
 		print("es una raiz exacta")
 	else:
