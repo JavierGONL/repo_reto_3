@@ -1,4 +1,4 @@
-#Reto_3
+# Reto_3
 
 
 #### 1.  Plantear el algoritmo para obtener los números primos hasta N, usando pseudocódigo y diagramas de flujo.
