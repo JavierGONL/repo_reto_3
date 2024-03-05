@@ -1,8 +1,8 @@
 # Reto_3
 
-------------
+
 #### 1.  Plantear el algoritmo para obtener los números primos hasta N, usando pseudocódigo y diagramas de flujo.
-------------
+
 - Pseudo Codigo:
 
 ------------
@@ -47,9 +47,9 @@
 
 [![](https://mermaid.ink/img/pako:eNpNkEFPwzAMhf-KlROITYMdK4HEVrjRyzhMtBysxlujNXGVpCDU9b_jNR0iJ9vve7H1BlWzJpWpQ8vfdYM-wnteOZD3fIPtkb2JlqHzxnK4heXyCTal6y15hgI-E7mZ5ttyD4_QmhARNEGCgpRBujU0eBGK1Xo2bSdTPgQCbb6MMMVqDzU7qFEjJGjeJGKL6esRZimf_OeHu8ke2FM4v5RQMFBI917Pm8n7f-BrCTvzBwqnFko2WTRashguvkrFhixVKpNSoz9VqnKjcNhH3v24WmXR97RQfacxUm7w6NFehx26D2ZpD9gG6UmbyP4tZT1FPv4Cv3t47w?type=png)](https://mermaid.live/edit#pako:eNpNkEFPwzAMhf-KlROITYMdK4HEVrjRyzhMtBysxlujNXGVpCDU9b_jNR0iJ9vve7H1BlWzJpWpQ8vfdYM-wnteOZD3fIPtkb2JlqHzxnK4heXyCTal6y15hgI-E7mZ5ttyD4_QmhARNEGCgpRBujU0eBGK1Xo2bSdTPgQCbb6MMMVqDzU7qFEjJGjeJGKL6esRZimf_OeHu8ke2FM4v5RQMFBI917Pm8n7f-BrCTvzBwqnFko2WTRashguvkrFhixVKpNSoz9VqnKjcNhH3v24WmXR97RQfacxUm7w6NFehx26D2ZpD9gG6UmbyP4tZT1FPv4Cv3t47w)
 
-------------
+
 #### 2.Revise el procedimiento matemático para hallar raíces cuadradas (son divisiones y restas), plantee el algoritmo en pseudocódigo y en diagrama de flujo.
-------------
+
 - Pseudo Codigo
 ------------
  			[VARIABLES]
