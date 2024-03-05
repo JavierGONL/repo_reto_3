@@ -78,7 +78,7 @@
 
 ------------
 
-
+```python
 			#variables
    
 	N=int(input("ingrese un numero:"))
@@ -91,4 +91,4 @@
 		print("es una raiz exacta")
 	else:
 		print("no es una raiz exacta")
-
+```
